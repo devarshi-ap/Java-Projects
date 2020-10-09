@@ -23,7 +23,7 @@ public class PowerOfTwo{
             
             long x = sc.nextLong();
 
-            if(isPowerOfTwo(x)){
+            if( isPowerOfTwo(x) ){
                 System.out.println("T");
             } else {
                 System.out.println("F");
