@@ -23,12 +23,11 @@ public class FileReader {
         */
 
 
-        File file = new File("/Users/Amit/Desktop/captmidn.txt");
+        File file = new File("COPY PASTE FILE PATH FROM FILE EXPLORER HERE");
         Scanner scan = new Scanner(file);
 
 
-        //reads through the txt file line by line and prints it
-        //until scan.hasNextLine() is false
+        //reads through the txt file line by line and prints it until scan.hasNextLine() is false
         while(scan.hasNextLine()){
             System.out.println(scan.nextLine());
         }
